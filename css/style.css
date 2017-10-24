@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Abel', sans-serif;
+  font-family: 'Lobster', cursive;
+}
+.container-header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: yellow;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu li {
+  list-style: none;
+  padding-left: 35px;
+  text-decoration: none;
+}
+h1 {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 100px;
+}
+h1 span {
+  background-color: rgba(176,75,32,0.4);
+  color: #fed337;
+  border-radius: 20px;
+}
+#video-background {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+.stopfade {
+   opacity: .9;
+}
+.myButton {
+  margin: auto;
+  width: 60px;
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	padding:7px 10px;
+	text-decoration:none;
+  text-align: center;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-top: 40vh;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
