@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const vid = document.getElementById("video-background");
   const pauseButton = document.querySelector(".myButton");
 
-  // if (window.matchMedia('(prefers-reduced-motion)').matches) {
-  //   vid.removeAttribute("autoplay");
-  //   vid.pause();
-  //   pauseButton.innerHTML = "paused";
-  // }
+  if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+    vid.pause();
+    pauseButton.innerHTML = "paused";
+  }
 
   function vidFade() {
     vid.classList.add("stopfade");
